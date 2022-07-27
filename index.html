@@ -1,12 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- BT1 -->
+    <h1>BT1</h1>
+    <div class="container w-50 card p-0 text-center">
+        <div class="card-header py-3 ">
+            <h3>Tìm số nguyên dương nhỏ nhất</h3>
+        </div>
+        <div class="py-3">
+            <p>Tìm số nguyên dương nhỏ nhất sao cho tổng các số nguyên dương > 10000</p>
+            <button id="btnKetQuaBT1" class="btn btn-success">Kết quả</button>
+        </div>
+        <div class="py-3">
+            <span id="txtSoNguyenDuongNhoNhat"></span>
+        </div>
+    </div>
+    <!-- BT2 -->
+    <h1>BT2</h1>
+    <div class="container w-50 card p-0 text-center">
+        <div class="card-header py-3 ">
+            <h3>Tính tổng </h3>
+            <p>( S(n) = x + x^2 + x^3 + … + x^n )</p>
+        </div>
+        <div class="py-3">
+            <form >
+                <div>
+                    <label for="nhapX">Nhập x</label>
+                    <input id="nhapX" type="Number">
+                </div>
+                <div>
+                    <label for="nhapN">Nhập n</label>
+                    <input id="nhapN" type="Number">
+                </div>
+            </form>
+        </div>
+        <button id="btnBT2" class="btn btn-success">Tính Tổng</button>
+        <div class="py-3">
+            <span id="txtTinhTong"></span>
+        </div>
+    </div>
+
+
+    <!-- BT3 -->
+    <h1>BT3</h1>
+    <div class="container w-50 card p-0 text-center">
+        <div class="card-header py-3 ">
+            <h3>Tìm giai thừa</h3>
+        </div>
+        <div class="py-3">
+            <label for="intGiaiThua">Nhập số n</label>
+            <input id="intGiaiThua" type="number">
+        </div>
+        <button id="btnGiaThua" class="btn btn-success">Kết quả</button>
+        <div class="py-3">
+            <span id="txtGiaiThua"></span>
+        </div>
+    </div>
+
+    <!-- BT4 -->
+    <h1>BT4</h1>
+    <div class="container w-50 card p-0 text-center">
+        <div class="card-header py-3 ">
+            <h3>in màu 10 thẻ div</h3>
+        </div>
+        <button id="btnDiv" class="btn btn-success">Kết quả</button>
+        <div class="py-3">
+            <span id="txtDiv"></span>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- JS -->
+
+    <script src="./js/main.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
